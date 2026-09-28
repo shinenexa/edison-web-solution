@@ -1,0 +1,82 @@
+/* ============================= */
+/*        FONT FAMILIES          */
+/* ============================= */
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* ============================= */
+  /*           HEADINGS            */
+  /* ============================= */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+    letter-spacing: -0.6px;
+    color: inherit;
+    margin-top: 0;
+  }
+  
+  /* Hero Main Title */
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+  
+  /* ============================= */
+  /*           PARAGRAPH           */
+  /* ============================= */
+  
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #64748b;
+    margin-bottom: 16px;
+  }
+  
+  /* ============================= */
+  /*         RESPONSIVE            */
+  /* ============================= */
+  
+  @media (max-width: 768px) {
+  
+    h1 {
+      font-size: 32px;
+      line-height: 1.2;
+    }
+  
+    h2 {
+      font-size: 26px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 15px;
+      line-height: 26px;
+    }
+  }
